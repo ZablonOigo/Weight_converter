@@ -1,3 +1,4 @@
+//DOM
 const Input=document.getElementById('Input').addEventListener('input',(e)=>{
     let pounds=e.target.value;
     document.getElementById('gramsOutput').innerHTML=Math.floor(pounds/0.0022046);
